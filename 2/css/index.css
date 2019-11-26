@@ -2,3 +2,6 @@ body{
 
     color: transparent;
 }
+li{
+    list-style: none;
+}

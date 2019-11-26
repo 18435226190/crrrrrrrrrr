@@ -1,0 +1,188 @@
+body {
+    width: 100%;
+    height: 100%;
+    overflow: auto;   
+  }
+  
+  .page {
+    width: 3840px;
+    height: 746px;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+ 
+  }
+  /* -------头部--------- */
+   .header {    
+     height:86px;
+     background: #b58500;
+     display:flex;
+     justify-content: space-between
+  }
+
+  .header-left{
+    padding:20px 0 26px 42px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: '微软雅黑';
+    color:#fff;
+    line-height: 40px;
+  }
+  .header-week{
+      margin-left: 41px;
+  }
+  .header-date{
+      margin-left: 42px
+  }
+  .header-middle{
+      text-align: center;
+      width: 616px;
+      background:url('../images/bg_middle.jpg');
+      height:112px;
+      position: absolute;
+      top:0;
+      left: 50%;
+      margin-left: -308px
+  }
+  .header-right{
+      display: flex;
+      align-items: center;
+      padding-right:40px
+  }
+  .header-right .text{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: '微软雅黑';
+    color:#fff;
+    margin-left: 23px
+  }
+ .header-right .pic{
+     width: 65px;
+     height:65px;
+     border: 2px solid #fff;
+     border-radius: 3px;
+     margin: 0 32px 0 31px;
+     text-align: center;
+     border-radius: 3px;
+
+ }
+ .header-right .pic img{
+     vertical-align: middle
+ }
+   .header-right .cold{
+     width: 168px;
+     height:65px;
+     background: #01a3a9;
+     border:2px solid #fff
+ }
+ /* ----中间部分----- */
+ .center{
+    width: 100%;
+    height:260px;
+    padding-top:165px;
+ }
+ .center ul{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height:233px;
+ }
+ .center ul .future h3{
+     font-size: 110px;
+     color:#b58500
+ }
+ .center ul .future h4{
+    font-size: 60px;
+    color:#b58500
+ }
+ .center ul .active h3{
+    color:#003057;
+    font-size: 140px;
+ }
+ .center ul .active h4{
+    color:#003057;
+    font-size: 70px;
+ }
+ .center ul .before h3{
+    font-size: 110px;
+    color:#959595
+ }
+ .center ul .before h4{
+    font-size: 60px;
+    color:#959595
+ }
+ /* 底部部分 */
+ .bottom .block{
+    display: block;
+}
+.running{
+    text-align: center;
+     padding-top:73px;
+     font: bold normal 50px/50px "微软雅黑";
+     color:#003057;
+     display: none
+
+ }
+ 
+ .running .number{
+     font-size: 80px;
+    
+ }
+
+ .arrived { 
+    display: none;
+    width: 100%;
+    height:136px;
+    position: absolute;
+    bottom:0;
+    text-align: center
+ }
+ .arrived .content{
+    display: inline;
+     line-height:136px;
+  
+ }
+ .arrived .content li{
+     display: inline-block;
+     text-align: left;
+     color: #6ffaff;
+     font-size: 50px;
+     margin-left: 10px;
+ }
+ .arrived .content li span{
+     display: flex;
+     align-items: center
+ }
+ .arrived .content .blue-head{
+     margin-left: 63px;
+     background: url('../images/blue-head.jpg') no-repeat;
+     background-size: contain;
+     padding-left: 62px;
+     width: 288px;
+ }
+ .arrived .content .blue-body{
+    background: url('../images/blue-body.jpg') no-repeat;
+    background-size: contain;
+    padding-left: 37px;
+    width: 313px;
+ }
+ .arrived .content .yellow-body{
+    background: url('../images/yellow-body.jpg') no-repeat;
+    background-size: contain;
+    padding-left: 37px;
+    width: 313px;
+ }
+ .arrived .content .red-body{
+    background: url('../images/red-body.jpg') no-repeat;
+    background-size: contain;
+    padding-left: 37px;
+    width: 313px;
+ }
+ .arrived .content .blue-foot{
+    background: url('../images/blue-foot.jpg') no-repeat;
+    background-size: contain;
+    padding-left: 207px;
+    width: 143px;
+ }
+
+

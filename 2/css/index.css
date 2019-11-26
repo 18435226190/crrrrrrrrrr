@@ -5,3 +5,6 @@ body{
 li{
     list-style: none;
 }
+h2{
+    font-size: 0px;
+}
